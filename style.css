@@ -57,6 +57,15 @@ img {
   margin: .5em 0;
 }
 
+/* .winning {
+  color: green !important;
+  background: pink;
+}
+
+.losing {
+  color: red !important;
+} */
+
 .targetPointDiv {
   display: flex;
 }
@@ -65,10 +74,7 @@ img {
   margin-left: .5em;
   border-radius: 40%;
   padding: .3em;
-}
-
-.targetPointDiv select[editable]>button {
-  color: #f00 !important;
+  outline: none;
 }
 
 .spanDiv {
@@ -97,3 +103,4 @@ span {
 .spanDiv span:nth-child(3) {
   background: red;
 }
+
