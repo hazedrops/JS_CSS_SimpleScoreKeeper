@@ -79,10 +79,8 @@ function changeScoreColor(pScore) {
     // console.log('prevElem is: ', sibling)
   }
 
-  pScore.classList.add('winner')
-  sibling.classList.add('loser')
-
-  setTimeout(console.log(pScore, sibling), 5000);
+  pScore.style.color = 'green'
+  sibling.style.color = 'red'
 }
 
 function clearScore() {
@@ -92,9 +90,11 @@ function clearScore() {
   p1Score = 0
   p2Score = 0
 
-  pOneScore.classList.remove('winner', 'loser')
-  pTwoScore.classList.remove('winner', 'loser')
-
+  setColor('black')
 }
 
+function setColor(color) {
+  pOneScore.style.color = color
+  pTwoScore.style.color = color
+}
 

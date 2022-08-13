@@ -57,14 +57,13 @@ img {
   margin: .5em 0;
 }
 
-/* .winning {
+.winner {
   color: green !important;
-  background: pink;
 }
 
-.losing {
+.loser {
   color: red !important;
-} */
+}
 
 .targetPointDiv {
   display: flex;
